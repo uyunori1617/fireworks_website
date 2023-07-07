@@ -1,16 +1,16 @@
-.members {
-    background-color: #f8f8f8;
+.oidendance {
+    background-color: #000000;
     padding-top: 45px;
     padding-bottom: 55px;
 }
 
-.members h2 {
+.oidendance h2 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
-.members h2::after {
+.oidendance h2::after {
     content: '';
     display: block;
     width: 36px;
@@ -21,7 +21,7 @@
     margin-right: auto;
 }
 
-.member-list {
+.oidendance-list {
     display: flex;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -30,24 +30,24 @@
     overflow: scroll;
 }
 
-.member-list li {
+.oidendance-list li {
     flex-shrink: 0;
     width: 260px;
     margin-left: 75px;
     overflow: scroll;
 }
 
-.member-list li:first-child {
+.oidendance-list li:first-child {
     margin-left: 0;
 }
 
 @media (max-width: 800px) {
-    .member-list {
+    .oidendance-list {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .member-list li {
+    .oidendance-list li {
         width: 220px;
         margin-left: 30px;
     }
