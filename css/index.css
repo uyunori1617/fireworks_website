@@ -36,13 +36,13 @@ nav.floating {
 }
 
 .first-view-text p {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
 }
 
 .first-view-text q {
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 30px;
 }
 }
 .lead {
@@ -150,8 +150,8 @@ img {
         top: 100%;
         left: 0;
         right: 0;
-        color: #ffffff;
-        background-color: #736e62;
+        color: #000000;
+        background-color: #ffffff;
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
