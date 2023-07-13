@@ -1,5 +1,25 @@
+.title {
+    height: 310px;
+    background-image: url(../images/concept/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #b90909;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
 .fireworks {
-    background-color: #000000;
+    background-color: #ffffff;
     padding-top: 45px;
     padding-bottom: 55px;
 }
@@ -8,37 +28,6 @@
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-}
-
-.fireworks h2::after {
-    content: '';
-    display: block;
-    width: 36px;
-    height: 3px;
-    background-color: #000000;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.fireworks-list {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    overflow: scroll;
-}
-
-.fireworks-list li {
-    flex-shrink: 0;
-    width: 260px;
-    margin-left: 75px;
-    overflow: scroll;
-}
-
-.fireworks-list li:first-child {
-    margin-left: 0;
 }
 
 @media (max-width: 800px) {
