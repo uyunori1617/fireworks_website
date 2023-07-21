@@ -24,16 +24,34 @@
     padding-bottom: 55px;
 }
 
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
 .fireworks h2 {
-    font-size: 22px;
-    font-weight: bold;
+    color: #c95d5d;
+    font-size: 1.92rem;
+    line-height: 1.4;
+    letter-spacing: 0.13rem;
     text-align: center;
+}
+
+.feature-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
 }
 
 .image {
     width: 930px;
     max-width: 90%;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
