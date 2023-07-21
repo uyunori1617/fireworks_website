@@ -25,7 +25,10 @@
 }
 
 .oidendance h2 {
-    font-size: 30px;
+    color: #c95d5d;
+    font-size: 1.92rem;
+    line-height: 1.4;
+    letter-spacing: 0.13rem;
     text-align: center;
 }
 
