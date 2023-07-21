@@ -68,3 +68,10 @@
     line-height: 28px;
     margin-top: 25px;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
