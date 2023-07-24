@@ -78,6 +78,14 @@
     
 }
 
+.image {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 800px) {
     .fireworks-list {
         padding-left: 20px;
