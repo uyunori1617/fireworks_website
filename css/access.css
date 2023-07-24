@@ -12,3 +12,27 @@
     height: 600px;
     margin-top: 25px;
 }
+
+@media (max-width: 800px) {
+    .fireworks-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fireworks-list li {
+        width: 220px;
+        margin-left: 30px;
+    }
+
+    .header-site-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #000000;
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+}
